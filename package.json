@@ -1,0 +1,39 @@
+{
+  "name": "ajaxIntercept",
+  "title": "ajaxIntercept",
+  "description": "拦截 Ajax 请求",
+  "version": "1.0.0",
+  "keywords": [
+  ],
+  "author": "jmx164491960@163.com",
+  "dependencies": {
+    "commander": "*"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-connect": "^5.7.0",
+    "gulp-coveralls": "^0.1.4",
+    "gulp-istanbul": "^0.10.4",
+    "gulp-jshint": "^2.1.0",
+    "gulp-mocha": "^2.2.0",
+    "gulp-mocha-phantomjs": "^0.10.1",
+    "jshint": "^2.8.0",
+    "jshint-stylish": "^2.1.0",
+    "webpack": "^1.12.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com"
+  },
+  "main": "./dist/ajaxIntercept.js",
+  "scripts": {
+    "test": "gulp mocha",
+    "coveralls": "gulp coveralls"
+  },
+  "bin": {
+    "random": "bin/random"
+  },
+  "spm": {
+    "main": "dist/ajaxIntercept.js"
+  }
+}
