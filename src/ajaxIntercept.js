@@ -1,3 +1,4 @@
+// https://github.com/jmx164491960/AjaxIntercept
 /* global require, module, window */
 var Util = require('./ajaxIntercept/util')
 

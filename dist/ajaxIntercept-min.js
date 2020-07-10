@@ -54,6 +54,7 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 0 */
 /***/ (function(module, exports, __webpack_require__) {
 
+	// https://github.com/jmx164491960/AjaxIntercept
 	/* global require, module, window */
 	var Util = __webpack_require__(1)
 	
